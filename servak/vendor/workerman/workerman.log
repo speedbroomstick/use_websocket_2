@@ -1,0 +1,10 @@
+2022-12-08 20:41:29 pid:1 Error: Object of class Workerman\Connection\TcpConnection could not be converted to string in E:\OpenServer\domains\servak\main.php:12
+Stack trace:
+#0 E:\OpenServer\domains\servak\vendor\workerman\workerman\Worker.php(2532): {closure}()
+#1 E:\OpenServer\domains\servak\vendor\workerman\workerman\Events\Select.php(311): Workerman\Worker->acceptConnection()
+#2 E:\OpenServer\domains\servak\vendor\workerman\workerman\Worker.php(2467): Workerman\Events\Select->loop()
+#3 E:\OpenServer\domains\servak\vendor\workerman\workerman\Worker.php(1453): Workerman\Worker->run()
+#4 E:\OpenServer\domains\servak\vendor\workerman\workerman\Worker.php(1396): Workerman\Worker::forkWorkersForWindows()
+#5 E:\OpenServer\domains\servak\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#6 E:\OpenServer\domains\servak\main.php(72): Workerman\Worker::runAll()
+#7 {main}

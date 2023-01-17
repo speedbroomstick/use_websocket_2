@@ -1,0 +1,10 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-image: url(1.jpg);
+    background-size: cover;
+color: #fff;
+background-attachment: fixed;
+background-repeat: repeat-x;
+}
